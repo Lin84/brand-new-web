@@ -3,7 +3,7 @@ const environment = require('./environment');
 
 const
     /* General */
-    PORT = 5001,
+    PORT = 5555,
     TITLE = 'Gulp Development Stack',
 
     /* Paths */
