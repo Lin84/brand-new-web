@@ -26,5 +26,9 @@ $tag-default-bg: $plum;
 $tag-padding-x: 1em;
 $tag-padding-y: .5em;
 
+$modal-inner-padding: 0 1rem 1.5rem;
+$modal-header-border-width: 0;
+$modal-title-padding: 0.8rem;
+
 // Import bootstrap's own variables
 @import '../../../node_modules/bootstrap/scss/variables';

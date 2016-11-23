@@ -6,13 +6,10 @@ import 'babel-polyfill';
 import 'svgxuse';
 import init from './init';
 import loadJS from 'fg-loadjs';
-// import 'bootstrap/js/dist/modal';
-
 
 const app = () => {
     loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
-        require('bootstrap/js/dist/util'); // eslint-disable-line global-require
-        require('bootstrap/js/dist/modal'); // eslint-disable-line global-require
+        require('bootstrap/dist/js/bootstrap'); // eslint-disable-line global-require
     });
 };
 
