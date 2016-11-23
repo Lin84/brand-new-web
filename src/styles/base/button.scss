@@ -5,25 +5,6 @@
  */
 
 /**
- * Default button
- *
- * default - Normal button
- * :hover - Hover
- * :active - Active
- * :focus - Focus
- *
- * markup:
- * <a class="btn btn-default {{modifier_class}}" href="#" role="button">Link</a>
- * <button class="btn btn-default {{modifier_class}}" type="submit">Button</button>
- * <input class="btn btn-default {{modifier_class}}" type="button" value="Input">
- * <input class="btn btn-default {{modifier_class}}" type="submit" value="Submit">
- *
- * weight: -10
- *
- * Styleguide Base - Button - Default
- */
-
-/**
  * Primary button
  *
  * default - Normal button
@@ -41,6 +22,31 @@
  *
  * Styleguide Base - Button - Primary
  */
+.btn-primary {
+    box-shadow: $btn-box-shadow;
+}
+
+/**
+ * Primary button
+ *
+ * default - Normal button
+ * :hover - Hover
+ * :active - Active
+ * :focus - Focus
+ *
+ * weight: -10
+ *
+ * markup:
+ * <a class="btn btn-secondary {{modifier_class}}" href="#" role="button">Link</a>
+ * <button class="btn btn-secondary {{modifier_class}}" type="submit">Button</button>
+ * <input class="btn btn-secondary {{modifier_class}}" type="button" value="Input">
+ * <input class="btn btn-secondary {{modifier_class}}" type="submit" value="Submit">
+ *
+ * Styleguide Base - Button - Primary
+ */
+.btn-secondary {
+    box-shadow: $btn-box-shadow;
+}
 
 /**
  * Success button

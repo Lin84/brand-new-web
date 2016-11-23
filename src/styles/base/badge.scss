@@ -1,0 +1,24 @@
+/**
+ * Badge
+ *
+ * Styleguide Base - Badge
+ */
+
+/**
+ * Primary button
+ *
+ * default - Normal button
+ * :hover - Hover
+ * :active - Active
+ * :focus - Focus
+ *
+ * weight: -10
+ *
+ * markup:
+ * <span class="tag tag-default {{modifier_class}}">Badge</span>
+ *
+ * Styleguide Base - Button - Primary
+ */
+.tag-default {
+    border-radius: 0 0 1rem;
+}
