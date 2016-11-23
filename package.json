@@ -33,6 +33,7 @@
     "eslint": "^3.9.1",
     "eslint-config-actum": "github:actum/eslint-config-actum",
     "eslint-loader": "^1.6.0",
+    "fg-loadjs": "^1.0.0",
     "glob": "^5.0.15",
     "gulp": "^3.9.0",
     "gulp-eslint": "^3.0.1",
