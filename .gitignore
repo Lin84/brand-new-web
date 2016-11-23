@@ -12,3 +12,5 @@ npm-debug.log
 
 # styleguide
 /styleguide
+
+.vscode/settings.json
