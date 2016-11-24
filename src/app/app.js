@@ -1,6 +1,5 @@
 import loadJS from 'fg-loadjs';
 import 'babel-polyfill';
-import 'jquery';
 /**
  * https://github.com/Keyamoon/svgxuse
  * If you do not use SVG <use xlink:href="…"> elements, remove svgxuse module

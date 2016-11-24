@@ -4,8 +4,13 @@
     padding: 1.875rem 1.25rem 2.5rem;
     overflow: visible;
 
+    &--title{
+        margin-bottom: 0;
+    }
+
     &--item {
         padding-top: 1.875rem;
+        margin-bottom: 0;
         border: none;
 
         &:last-child {

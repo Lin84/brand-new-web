@@ -3,22 +3,23 @@
 {% set title = "Accordion component" %}
 
 {% block content %}
-  <div class="copy-accordion" id="accordion">
-    <div class="copy-accordion--item card" >
-        <a id="collapseExampleHeading" class="collapsed collapse--icon ml-1" data-parent="#accordion" data-toggle="collapse" href="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
-        Primary link
-        </a>
-        <div class="collapse px-1" id="collapseExample" aria-labelledby="collapseExampleHeading">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    <div class="copy-accordion" id="accordion">
+        <h3 class="copy-accordion--title"><strong>Once your switch is complete</strong></h3>
+        <div class="copy-accordion--item card" >
+            <a id="collapseExampleHeading" class="collapsed collapse--icon ml-1" data-parent="#accordion" data-toggle="collapse" href="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+            Primary link
+            </a>
+            <div class="collapse px-1" id="collapseExample" aria-labelledby="collapseExampleHeading">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+        <div class="copy-accordion--item card" >
+            <a id="collapseExampleHeading2" class="collapsed collapse--icon ml-1" data-parent="#accordion" data-toggle="collapse" href="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
+            Primary link
+            </a>
+            <div class="collapse px-1" id="collapseExample2" aria-labelledby="collapseExampleHeading2">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
         </div>
     </div>
-    <div class="copy-accordion--item card" >
-        <a id="collapseExampleHeading2" class="collapsed collapse--icon ml-1" data-parent="#accordion" data-toggle="collapse" href="#collapseExample2" aria-expanded="true" aria-controls="collapseExample2">
-        Primary link
-        </a>
-        <div class="collapse px-1" id="collapseExample2" aria-labelledby="collapseExampleHeading2">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-    </div>
-</div>
 {% endblock %}
