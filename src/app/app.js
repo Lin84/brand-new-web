@@ -7,17 +7,10 @@ import 'babel-polyfill';
 import 'svgxuse';
 
 import init from './init';
-import loadJS from 'fg-loadjs';
 
 loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
     // eslint-disable-next-line
     require('./bootstrap-loader');
 });
-
-const app = () => {
-    loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
-        require('bootstrap/dist/js/bootstrap'); // eslint-disable-line global-require
-    });
-};
 
 app(window.config);
