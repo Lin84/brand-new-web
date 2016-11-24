@@ -5,13 +5,13 @@
 {% block content %}
     <div class="container-fluid">
         <blockquote class="blockquote row">
-            <div class="blockquote__primary col-xs-12 text-xs-center">
-                <p class="lead">
+            <div class="blockquote__primary col-xs-12 text-xs-center mb-0">
+                <p class="lead mb-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales massa fringilla, aliquam odio id, ultricies leo. Aliquam ut turpis pellentesque, auctor felis eu, elementum ipsum. Donec a mauris semper, rhoncus neque vitae, hendrerit quam. Phasellus laoreet dui eget erat commodo     hendrerit. Phasellus venenatis orci ac metus tempus conge.
                 </p>
             </div>
-            <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center">
-                <p class="blockquote__secondary__content">
+            <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center m-0 p-0">
+                <p class="blockquote__secondary-content">
                     Primary paragraph style text.
                 </p>
             </div>
@@ -20,14 +20,14 @@
     <div class="container-fluid">
         <blockquote class="blockquote row">
             <div class="blockquote__primary col-xs-12 text-xs-center">
-                <p class="lead">
+                <p class="lead mb-0">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales massa fringilla, aliquam odio id, ultricies leo. Aliquam ut turpis pellentesque, auctor felis eu, elementum ipsum. Donec a mauris semper, rhoncus neque vitae, hendrerit quam. Phasellus laoreet dui eget erat commodo     hendrerit. Phasellus venenatis orci ac metus tempus conge.
                 </p>
             </div>
-            <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center">
-                <p class="blockquote__secondary__content">
+            <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center m-0 p-0">
+                <p class="blockquote__secondary-content">
                     Primary paragraph style text.
-                    <a href="#" class="blockquote__secondary__link">Test link</a>
+                    <a href="#" class="blockquote__secondary-link">Test link</a>
                 </p>
             </div>
         </blockquote>
