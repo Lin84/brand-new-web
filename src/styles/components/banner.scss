@@ -1,0 +1,55 @@
+.banner {
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    .purple {
+        color: $plum;
+    }
+
+    .price {
+        @extend .purple;
+    }
+
+    div:first-of-type {
+        position: relative;
+        background-color: $light-orange-1;
+        padding: 55px 20px 15px;
+        flex-basis: 62%;
+
+        .label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 0.8rem;
+            padding: 10px 16px;
+        }
+
+        .font-larger {
+            font-size: $font-size-h3;
+        }
+
+        &:after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 0 15px 15px;
+            border-color: transparent transparent transparent $light-orange-1;
+            position: absolute;
+            right: -15px;
+            z-index: 1;
+            top: calc(50% - 15px);
+        }
+    }
+
+    div:last-of-type {
+        text-align: center;
+        background-color: $light-orange-2;
+        padding: 30px;
+        flex-basis: 38%;
+
+        .price {
+            font-size: $font-size-h2;
+        }
+    }
+}
