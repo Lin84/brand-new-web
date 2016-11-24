@@ -1,0 +1,31 @@
+.blockquote {
+    &__primary {
+        background: $beige;
+        margin-bottom: 0;
+        padding: 2.5rem 1.25rem;
+
+        h3 {
+            margin-bottom: 0;
+        }
+    }
+
+    &__secondary {
+        padding: 0;
+        margin: 0;
+
+        &__content {
+            background: $beige-lighter;
+            padding: 1.875rem 1.25rem;
+
+            @include media-breakpoint-up(sm) {
+                display: inline-block;
+            }
+        }
+
+        &__link {
+            @include media-breakpoint-down(xs) {
+                display: block;
+            }
+        }
+    }
+}

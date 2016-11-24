@@ -26,5 +26,7 @@ $tag-default-bg: $plum;
 $tag-padding-x: 1em;
 $tag-padding-y: .5em;
 
+$blockquote-border-width: 0;
+
 // Import bootstrap's own variables
 @import '../../../node_modules/bootstrap/scss/variables';
