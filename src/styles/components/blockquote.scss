@@ -1,0 +1,22 @@
+.blockquote {
+    &__primary {
+        background: $beige;
+        margin-bottom: 0;
+        padding: 2.5rem 1.25rem;
+    }
+
+    &__secondary-content {
+        background: $beige-lighter;
+        padding: 1.875rem 1.25rem;
+
+        @include media-breakpoint-up(sm) {
+            display: inline-block;
+        }
+    }
+
+    &__secondary-link {
+        @include media-breakpoint-down(xs) {
+            display: block;
+        }
+    }
+}
