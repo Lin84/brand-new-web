@@ -2,38 +2,30 @@
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
-    @media (max-width: 800px) {
+    @media (max-width: @screen-xs-min) {
         flex-direction: column;
     }
 
-    .purple {
+    .price {
         color: $plum;
     }
 
-    .price {
-        @extend .purple;
+    .label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 0.8rem;
+        padding: 10px 16px;
     }
 
-    div:first-of-type {
+    &-info {
         position: relative;
         background-color: $light-orange-1;
         padding: 55px 20px 15px;
         flex-basis: 62%;
 
-        @media (max-width: 800px) {
+        @media (max-width: @screen-xs-min) {
             flex-basis: 100%;
-        }
-
-        .label {
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-size: 0.8rem;
-            padding: 10px 16px;
-        }
-
-        .font-larger {
-            font-size: $font-size-h3;
         }
 
         &:after {
@@ -48,7 +40,7 @@
             z-index: 1;
             top: calc(50% - 15px);
 
-            @media (max-width: 800px) {
+            @media (max-width: @screen-xs-min) {
                 border-width: 15px 15px 0 15px;
                 border-color: $light-orange-1 transparent transparent transparent;
                 top: 100%;
@@ -57,13 +49,13 @@
         }
     }
 
-    div:last-of-type {
+    &-action {
         text-align: center;
         background-color: $light-orange-2;
         padding: 30px;
         flex-basis: 38%;
 
-        @media (max-width: 800px) {
+        @media (max-width: @screen-xs-min) {
             flex-basis: 100%;
         }
 
