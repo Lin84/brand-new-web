@@ -1,0 +1,7 @@
+{% extends "layouts/default.nunj" %}
+
+{% set title = "Banner" %}
+
+{% block content %}
+    {% include 'partials/banner.nunj' %}
+{% endblock %}
