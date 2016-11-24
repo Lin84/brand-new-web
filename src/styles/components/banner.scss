@@ -2,7 +2,7 @@
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
-    @media (max-width: @screen-xs-max) {
+    @include media-breakpoint-down(md) {
         flex-direction: column;
     }
 
@@ -20,7 +20,7 @@
         padding: 55px 20px 15px;
         flex-basis: 62%;
 
-        @media (max-width: @screen-xs-max) {
+        @include media-breakpoint-down(md) {
             flex-basis: 100%;
         }
 
@@ -36,7 +36,7 @@
             z-index: 1;
             top: calc(50% - 15px);
 
-            @media (max-width: @screen-xs-max) {
+            @include media-breakpoint-down(md) {
                 border-width: 15px 15px 0;
                 border-color: $light-orange-1 transparent transparent transparent;
                 top: 100%;
@@ -51,7 +51,7 @@
         padding: 30px;
         flex-basis: 38%;
 
-        @media (max-width: @screen-xs-max) {
+        @include media-breakpoint-down(md) {
             flex-basis: 100%;
         }
     }
