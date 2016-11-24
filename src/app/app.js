@@ -7,9 +7,7 @@ import 'babel-polyfill';
 import 'svgxuse';
 
 import init from './init';
-import factory from './factory';
-import MyModule from './components/module';
-import Alertifier from './components/alertifier';
+import loadJS from 'fg-loadjs';
 
 loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
     // eslint-disable-next-line
@@ -17,8 +15,9 @@ loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
 });
 
 const app = () => {
-    init(MyModule, document.querySelector('.main h1'));
-    factory(Alertifier, document.querySelectorAll('.btn'));
+    loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
+        require('bootstrap/dist/js/bootstrap'); // eslint-disable-line global-require
+    });
 };
 
 app(window.config);
