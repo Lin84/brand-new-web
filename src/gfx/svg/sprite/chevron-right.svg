@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chevron-right">
+            <use id="Oval" stroke="#145C95" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+            <path d="M58.3591589,33.9667949 C59.2632202,34.8715288 59.8223305,36.1200061 59.8223305,37.4960486 L59.8223305,62.5039514 C59.8223305,65.2631929 57.5781353,67.5 54.8223305,67.5 C52.0609067,67.5 49.8223305,65.2573497 49.8223305,62.5039514 L49.8223305,42.5 L29.8183791,42.5 C27.0591376,42.5 24.8223305,40.2558048 24.8223305,37.5 C24.8223305,34.7385763 27.0649808,32.5 29.8183791,32.5 L54.8262819,32.5 C56.2052434,32.5 57.4537211,33.0605127 58.3577254,33.9652753 Z" id="Combined-Shape" fill="#145C95" transform="translate(42.322330, 50.000000) rotate(45.000000) translate(-42.322330, -50.000000) "></path>
+        </g>
+    </g>
+</svg>

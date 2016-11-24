@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plus">
+            <use id="Oval" stroke="#145C95" mask="url(#mask-2)" stroke-width="6" fill="#BAD9E8" xlink:href="#path-1"></use>
+            <path d="M55,45 L55,24.9995286 C55,22.2425656 52.7614237,20 50,20 C47.2441952,20 45,22.2383652 45,24.9995286 L45,45 L24.9995286,45 C22.2425656,45 20,47.2385763 20,50 C20,52.7558048 22.2383652,55 24.9995286,55 L45,55 L45,75.0004714 C45,77.7574344 47.2385763,80 50,80 C52.7558048,80 55,77.7616348 55,75.0004714 L55,55 L75.0004714,55 C77.7574344,55 80,52.7614237 80,50 C80,47.2441952 77.7616348,45 75.0004714,45 L55,45 Z" id="Combined-Shape" fill="#145C95"></path>
+        </g>
+    </g>
+</svg>

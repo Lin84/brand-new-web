@@ -13,4 +13,8 @@
     {{ svg('sprite-svg-01') }}
     {{ svg('sprite-svg-02', 'ad2') }}
     {{ svg('bulb') }}
+    {{ svg('chevron-right') }}
+    {{ svg('close') }}
+    {{ svg('minus') }}
+    {{ svg('plus') }}
 {% endblock %}
