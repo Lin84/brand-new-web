@@ -10,8 +10,6 @@
         {% endfor %}
     </ul>
 
-    {% include 'partials/banner.nunj' %}
-
     <a href="#" class="btn btn-primary">Click me!</a>
     <a href="#" class="btn btn-primary">No! Click me!</a>
 {% endblock %}

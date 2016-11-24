@@ -2,6 +2,10 @@
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+
     .purple {
         color: $plum;
     }
@@ -15,6 +19,10 @@
         background-color: $light-orange-1;
         padding: 55px 20px 15px;
         flex-basis: 62%;
+
+        @media (max-width: 800px) {
+            flex-basis: 100%;
+        }
 
         .label {
             position: absolute;
@@ -39,6 +47,13 @@
             right: -15px;
             z-index: 1;
             top: calc(50% - 15px);
+
+            @media (max-width: 800px) {
+                border-width: 15px 15px 0 15px;
+                border-color: $light-orange-1 transparent transparent transparent;
+                top: 100%;
+                right: calc(50% - 15px);
+            }
         }
     }
 
@@ -47,6 +62,10 @@
         background-color: $light-orange-2;
         padding: 30px;
         flex-basis: 38%;
+
+        @media (max-width: 800px) {
+            flex-basis: 100%;
+        }
 
         .price {
             font-size: $font-size-h2;
