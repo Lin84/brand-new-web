@@ -6,9 +6,9 @@
     <div class="container-fluid">
         <blockquote class="blockquote row">
             <div class="blockquote__primary col-xs-12 text-xs-center">
-                <h3>
+                <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales massa fringilla, aliquam odio id, ultricies leo. Aliquam ut turpis pellentesque, auctor felis eu, elementum ipsum. Donec a mauris semper, rhoncus neque vitae, hendrerit quam. Phasellus laoreet dui eget erat commodo     hendrerit. Phasellus venenatis orci ac metus tempus conge.
-                </h3>
+                </p>
             </div>
             <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center">
                 <p class="blockquote__secondary__content">
@@ -20,9 +20,9 @@
     <div class="container-fluid">
         <blockquote class="blockquote row">
             <div class="blockquote__primary col-xs-12 text-xs-center">
-                <h3>
+                <p class="lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales massa fringilla, aliquam odio id, ultricies leo. Aliquam ut turpis pellentesque, auctor felis eu, elementum ipsum. Donec a mauris semper, rhoncus neque vitae, hendrerit quam. Phasellus laoreet dui eget erat commodo     hendrerit. Phasellus venenatis orci ac metus tempus conge.
-                </h3>
+                </p>
             </div>
             <div class="blockquote__secondary col-sm-6 text-sm-left text-xs-center">
                 <p class="blockquote__secondary__content">
