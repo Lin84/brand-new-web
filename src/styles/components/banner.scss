@@ -6,11 +6,7 @@
         flex-direction: column;
     }
 
-    .price {
-        @extend .text-plum;
-    }
-
-    .label {
+    &-label {
         position: absolute;
         top: 0;
         left: 0;
@@ -57,10 +53,6 @@
 
         @media (max-width: @screen-xs-max) {
             flex-basis: 100%;
-        }
-
-        .price {
-            font-size: $font-size-h2;
         }
     }
 }
