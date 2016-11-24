@@ -12,5 +12,3 @@ loadJS('https://code.jquery.com/jquery-3.1.1.min.js', () => {
     // eslint-disable-next-line
     require('./bootstrap-loader');
 });
-
-app(window.config);
