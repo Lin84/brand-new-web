@@ -1,14 +1,14 @@
 <div class="container">
     <div class="banner">
-        <div class="banner-info">
-            <label class="banner-label tag tag-default">Customer exclusive</label>
+        <div class="banner__info">
+            <label class="banner__label tag tag-default">Customer exclusive</label>
             <p class="font-larger"><strong>Ipsum as their default model text</strong></p>
             <p class="font-larger">Ipsum and a search for <strong class="text-plum">$128</strong>  sites still in their infancy.</p>
             <p><strong>Ipsum as their default model text</strong></p>
             <p>Ipsum as their default sites still in their infancy. <a href="#">More information</a></p>
         </div>
 
-        <div class="banner-action">
+        <div class="banner__action">
             <p class="h2 text-plum"><strong>Only for $128</strong></p>
             <p><button class="btn btn-primary">Add to basket</button>
             </p>

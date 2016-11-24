@@ -6,7 +6,7 @@
         flex-direction: column;
     }
 
-    &-label {
+    &__label {
         position: absolute;
         top: 0;
         left: 0;
@@ -14,7 +14,7 @@
         padding: 10px 16px;
     }
 
-    &-info {
+    &__info {
         position: relative;
         background-color: $light-orange-1;
         padding: 55px 20px 15px;
@@ -45,7 +45,7 @@
         }
     }
 
-    &-action {
+    &__action {
         text-align: center;
         background-color: $light-orange-2;
         padding: 30px;
