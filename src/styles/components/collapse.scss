@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     padding: 1.875rem 1.25rem 2.5rem;
-    overflow: visible;
 
     &--title {
         margin-bottom: 0;
@@ -18,18 +17,39 @@
         }
     }
 
-    .collapse--icon {
-        position: relative;
+    .collapse--link {
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
 
-        &:before {
-            position: absolute;
-            left: -8px;
-            content: '-';
+        &-text {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .icon {
+            width: 1.875rem;
+            height: 1.875rem;
+            vertical-align: middle;
+        }
+
+        .icon-minus {
+            display: inline-block;
+        }
+
+        .icon-plus {
+            display: none;
         }
 
         &.collapsed {
-            &:before {
-                content: '+';
+            .icon-plus {
+                display: inline-block;
+            }
+
+            .icon-minus {
+                display: none;
             }
         }
     }
